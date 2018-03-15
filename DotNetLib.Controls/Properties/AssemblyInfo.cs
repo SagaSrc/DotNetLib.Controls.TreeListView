@@ -1,0 +1,43 @@
+/***************************************************************************\
+|  Author:  Josh Carlson                                                    |
+|                                                                           |
+|  This code is provided "as is" and no warranty about                      |
+|  it fitness for any specific task is expressed or                         |
+|  implied.  If you choose to use this code, you do so                      |
+|  at your own risk.                                                        |
+\***************************************************************************/
+
+using System;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("DotNetLib.Controls")]
+[assembly: AssemblyDescription("Extended forms library")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("DotNetLib")]
+[assembly: AssemblyProduct("DotNetLib")]
+[assembly: AssemblyCopyright("Copyright (c) 2004-2007 DotNetLib development team")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]	
+[assembly: CLSCompliant(true)]
+[assembly: ComVisible(false)]
+
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("0.1.2.1")]
+[assembly: AssemblyFileVersionAttribute("0.1.2.1")]
