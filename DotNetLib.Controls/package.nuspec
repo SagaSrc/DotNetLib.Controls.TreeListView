@@ -4,7 +4,7 @@
     <!--*-->
     <id>$id$</id>
     <!--*-->
-    <version>0.1.2.1</version>
+    <version>0.1.2.2</version>
     <title>
     </title>
     <!--*-->
@@ -19,7 +19,7 @@
     <!--*-->
     <description>$description$</description>
     <!--*-->
-    <releaseNotes>DotNetLib.Controls&amp;#x0020;Extended&amp;#x0020;forms&amp;#x0020;library&amp;#x000D;&amp;#x000A;&amp;#x000D;&amp;#x000A;Author:&amp;#x0020;Josh&amp;#x0020;Carlson</releaseNotes>
+    <releaseNotes>DotNetLib.Controls--TreeListView</releaseNotes>
     <copyright>$copyright$</copyright>
     <tags>
     </tags>
