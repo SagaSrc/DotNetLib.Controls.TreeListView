@@ -4116,10 +4116,21 @@ namespace DotNetLib.Controls
 			// Aulofee customization - end
 			else
 			{
-				Image img = Image.FromStream(System.Reflection.Assembly.GetExecutingAssembly()
-					.GetManifestResourceStream("DotNetLib.Controls.Resources.tv_" + (expanded ? "minus" : "plus") + ".bmp"));
+                // Image img =  Image.FromStream(System.Reflection.Assembly.GetExecutingAssembly()
+                //	.GetManifestResourceStream("DotNetLib.Controls.Resources.tv_" + (expanded ? "minus" : "plus") + ".bmp"));
 
-				g.DrawImage(img, rectangle);
+                Image img = null;
+                if (expanded)
+                {
+                    img = (Bitmap)global::DotNetLib.Controls.Properties.Resources.tv_minus;
+                }
+                else
+                {
+                    img = (Bitmap)global::DotNetLib.Controls.Properties.Resources.tv_plus;
+                }
+
+             
+                g.DrawImage(img, rectangle);
 			}
 		}
 
